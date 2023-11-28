@@ -1,0 +1,6 @@
+site_name: Nobiru
+site_url: https://github.com/domcorvasce/nobiru
+theme: readthedocs
+
+nav:
+  - Home: index.md

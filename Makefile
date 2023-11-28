@@ -15,6 +15,10 @@ lint:
 type-check:
 	poetry run mypy . --explicit-package-bases
 
+.PHONY: docs-serve
+docs-serve:
+	poetry run mkdocs serve --dev-addr=0.0.0.0:1337
+
 .PHONY:  test
 test:
 	poetry run pytest tests
