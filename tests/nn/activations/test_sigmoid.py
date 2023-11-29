@@ -13,5 +13,5 @@ def test_sigmoid_activation_on_linear_layer():
     activation = sigmoid.forward(layer.forward(np.array([[200.0, 17.0]])))
 
     assert activation.shape == (1, 2)
-    assert abs(1 - activation[0][0]) < 0.01
-    assert abs(1 - activation[0][1]) < 0.01
+    assert round(activation[0][0], 2) == 1.0
+    assert round(activation[0][1], 2) == 1.0

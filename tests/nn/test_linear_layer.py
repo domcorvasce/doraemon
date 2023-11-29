@@ -16,5 +16,5 @@ def test_linear_layer_forward_propagation():
 
     activation = layer.forward(np.array([[200.0, 17.0]]))
     assert activation.shape == (1, 2)
-    assert abs(activation[0][0] - 19.61977) < 0.01
-    assert abs(activation[0][1] - 164.05756) < 0.01
+    assert round(activation[0][0], 2) == 19.62
+    assert round(activation[0][1], 2) == 164.06
