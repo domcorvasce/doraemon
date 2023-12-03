@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.nobiru import nn
+from pydoraemon import nn
 
 
 def test_relu_activation_on_positive_output():

@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.nobiru import nn
+from pydoraemon import nn
 
 
 def test_sigmoid_activation_on_linear_layer():

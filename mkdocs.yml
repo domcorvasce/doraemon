@@ -1,6 +1,5 @@
-site_name: Nobiru
-site_url: https://github.com/domcorvasce/nobiru
+site_name: Doraemon
+site_url: https://github.com/domcorvasce/doraemon
 theme: readthedocs
 
 nav:
-  - Home: index.md

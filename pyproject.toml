@@ -1,10 +1,11 @@
 [tool.poetry]
-name = "nobiru"
+name = "pydoraemon"
 version = "0.1.0"
 description = ""
 authors = ["Domenico Corvasce <dcorvasce@outlook.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [{ include = "pydoraemon" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"

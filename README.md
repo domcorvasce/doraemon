@@ -1,11 +1,9 @@
-# Nobiru
+# Doraemon
 
-A toy machine learning library written in Python.
+<img src="./artwork.jpeg" width="256" />
 
-## Motivation
-
-I learn best by building things from scratch.
+**A toy machine learning library written in Python.**
 
 ## License
 
-Nobiru is a project released under the [MIT License](./LICENSE).
+Doraemon is a project released under the [MIT License](./LICENSE).
